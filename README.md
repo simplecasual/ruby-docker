@@ -6,25 +6,10 @@ provide a basic image for interacting with the latest ruby.
 What this is not, is an image for postgres and nodejs dependencies. Those should
 be derived from this image.
 
-## Building
+## Building And Deployment
 
-```sh
-make build
-```
-
-## Pushing
-
-Make sure you are logged into your docker hub account.
-
-```sh
-make push
-```
+The builds are automated with Docker Hub.
 
 ## Contributions
 
 All contributions are welcome! Just fork and submit a PR!
-
-## TODO
-
-- [ ] Versioned dockerfiles for v2.4.1 and older or newer
-- [ ] Auto build containers in docker hub?
