@@ -19,3 +19,12 @@ Make sure you are logged into your docker hub account.
 ```sh
 make push
 ```
+
+## Contributions
+
+All contributions are welcome! Just fork and submit a PR!
+
+## TODO
+
+- [ ] Versioned dockerfiles for v2.4.1 and older or newer
+- [ ] Auto build containers in docker hub?
