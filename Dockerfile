@@ -15,8 +15,8 @@ RUN apk --update --upgrade add --no-cache \
         libxml2-dev \
         libxslt \
         libxslt-dev \
-        libressl \
-        libressl-dev \
+        openssl \
+        openssl-dev \
         linux-headers \
         readline \
         readline-dev \
